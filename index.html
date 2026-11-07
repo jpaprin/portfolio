@@ -14,13 +14,26 @@
         <a href="contact.html">Contact</a>
     </nav>
     <main>
-        <h1>Dr. Judith Paprin</h1>
-        <img src="Judy_1427rt.jpg" alt="Dr. Judith Paprin" class="profile-photo">
+    <h1>Dr. Judith Paprin</h1>
+    <img src="Judy_1427rt.jpg" alt="Dr. Judith Paprin" class="profile-photo">
+    <div class="profile-text">
         <h2>About Me</h2>
         <p>I bring a broad range of life and clinical experience to my work as a therapist. After earning a Master of Architecture from Harvard University and practicing for 15 years, I transitioned into human psychology to pursue deeper interpersonal connections.</p>
-        <h2>Clinical Background & Training</h2>
+        <h2>Clinical Background &amp; Training</h2>
         <p>I earned my Psy.D. at William James College and developed a rigorous clinical foundation across institutions including Massachusetts General Hospital, Massachusetts Institute for Psychoanalysis, and Harvard Vanguard.</p>
-    </main>
+    </div>
+</main>
 </body>
 </html>
 
+.profile-text {
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .profile-photo {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+}
