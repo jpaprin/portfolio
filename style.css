@@ -45,8 +45,14 @@ h1 {
 p {
     font-size: 16px;
     margin-bottom: 1.5rem;
+}
+
 .profile-text {
     overflow: hidden;
+}
+
+.profile-text h2:first-child {
+    margin-top: 0;
 }
 
 @media (max-width: 600px) {
